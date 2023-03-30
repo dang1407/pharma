@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=vietnamese");
+@font-face {
+  font-family: "FontAwesome";
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/fontawesome.eot?v=6313");
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/fontawesome.eot?v=6313")
+      format("embedded-opentype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/fontawesome.woff?v=6313")
+      format("woff"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/fontawesome.ttf?v=6313")
+      format("truetype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/fontawesome.svg?v=6313")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/glyphicons-halflings-regular.eot?v=6313");
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/glyphicons-halflings-regular.eot?#iefix?v=6313")
+      format("embedded-opentype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/glyphicons-halflings-regular.woff?v=6313")
+      format("woff"),
+    url(//theme.hstatic.net/200000000133/1000569834/14/glyphicons-halflings-regular.ttf?v=6313)
+      format("truetype"),
+    url(//theme.hstatic.net/200000000133/1000569834/14/glyphicons-halflings-regular.svg#glyphicons_halflingsregular?v=6313)
+      format("svg");
+}
+@font-face {
+  font-family: "brandonText";
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-bold-webfont.eot?v=6313");
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-bold-webfont.eot?#iefix?v=6313")
+      format("embedded-opentype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-bold-webfont.woff?v=6313")
+      format("woff"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-bold-webfont.ttf?v=6313")
+      format("truetype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-bold-webfont.svg#brandon_textbold?v=6313")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "brandonText";
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-regular-webfont.eot?v=6313");
+  src: url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-regular-webfont.eot?#iefix?v=6313")
+      format("embedded-opentype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-regular-webfont.woff?v=6313")
+      format("woff"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-regular-webfont.ttf?v=6313")
+      format("truetype"),
+    url("//theme.hstatic.net/200000000133/1000569834/14/brandontext-regular-webfont.svg#brandon_textregular?v=6313")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Quicksand";
+  margin: 0;
+  padding: 0;
+}
+.glyphicon {
+  font-family: "Glyphicons Halflings" !important;
+}
+.fa {
+  font-family: "FontAwesome" !important;
+}
+html,
+body {
+  border: 0;
+  background-color: #fff;
+}
+html {
+  font-size: 62.5%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  line-height: 1.4;
+  font-size: 14px;
+  color: #111111;
+  overflow-x: hidden;
+  background: #fff;
+  position: initial;
+  font-family: "Quicksand";
+  font-size: 14px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111111;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 13px;
+  line-height: 18px;
+}
+h5 {
+  font-size: 12px;
+  line-height: 18px;
+}
+h6 {
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+p {
+  margin: 0 0 10px 0;
+  line-height: 21px;
+}
+a {
+  color: #111111;
+  text-decoration: none;
+  outline: none;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  color: #e29481;
+  text-decoration: none;
+  outline: none;
+}
+a:active {
+  outline: none;
+  font-weight: bold;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #111111;
+  line-height: 1.1;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #e29481;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+table tr td {
+  border-top: 1px solid #dddddd;
+}
+table tr td,
+table tr th {
+  padding: 10px;
+  text-align: left;
+}
+table tr td:first-child,
+table tr th:first-child {
+  padding-left: 0px;
+}
+table tr td:last-child,
+table tr th:last-child {
+  padding-right: 0px;
+}
+strong {
+  font-weight: 700;
+}
+em {
+  font-style: italic;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+ul.unstyled,
+ol.unstyled {
+  margin: 0;
+  list-style: none outside none;
+}
+ul.unstyled > li,
+ol.unstyled > li {
+  list-style: none;
+}
+ul.horizontal > li,
+ol.horizontal > li {
+  display: block;
+  float: left;
+}
+ul.horizontal-inline,
+ol.horizontal-inline {
+  text-align: center;
+}
+ul.horizontal-inline > li,
+ol.horizontal-inline > li {
+  display: inline;
+  margin: 0 5px;
+}
+ul.expanded > li,
+ol.expanded > li {
+  margin-bottom: 10px;
+}
+a {
+  transition: opacity 150ms linear, color 150ms linear, background 150ms linear;
+}
+input:focus {
+  outline: none;
+}
+.clear-fix {
+  clear: both;
+}
+.padding-rl-40 {
+  padding: 0 40px;
+}
+.btnAllSite:hover {
+  background: #e29481;
+  color: white;
+  border-color: #e29481;
+}
+.banner-effect {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+.banner-effect:before {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.banner-effect:hover:before {
+  -webkit-animation: shine 1.1s;
+  animation: shine 1.1s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@-webkit-keyframes sticky_header_animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

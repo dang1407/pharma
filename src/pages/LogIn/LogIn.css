@@ -1,0 +1,13 @@
+.action_bottom.button.dark {
+    display: inline-block;
+}
+
+.req_pass {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.breadcrumb>.active {
+    color: black;
+}
